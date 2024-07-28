@@ -1,0 +1,4 @@
+{
+  "alias": "dbrpxndut",
+  "dependencies": ["dobo-restproxy"]
+}
