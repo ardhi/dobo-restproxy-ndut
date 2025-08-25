@@ -1,14 +1,17 @@
 async function factory (pkgName) {
   const me = this
 
-  return class DoboRestproxyNdut extends this.lib.Plugin {
+  class DoboRestproxyNdut extends this.lib.Plugin {
+    static alias = 'dbrpxndut'
+    static dependencies = ['dobo', 'dobo-restproxy']
+
     constructor () {
       super(pkgName, me.app)
-      this.alias = 'dbrpxndut'
-      this.dependencies = ['dobo', 'dobo-restproxy']
       this.config = {}
     }
   }
+
+  return DoboRestproxyNdut
 }
 
 export default factory
