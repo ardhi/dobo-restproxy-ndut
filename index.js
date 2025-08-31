@@ -1,7 +1,7 @@
 async function factory (pkgName) {
   const me = this
 
-  class DoboRestproxyNdut extends this.lib.Plugin {
+  class DoboRestproxyNdut extends this.app.pluginClass.base {
     static alias = 'dbrpxndut'
     static dependencies = ['dobo', 'dobo-restproxy']
 
