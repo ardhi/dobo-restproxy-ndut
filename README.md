@@ -1,22 +1,25 @@
 # dobo-restproxy-ndut
 
-Plugin name: **doboRestproxyJsonserver**, alias: **dbrpxndut**
-
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ardhi/dobo-restproxy-ndut) ![NPM Version](https://img.shields.io/npm/v/dobo-restproxy-ndut)
 
-> <br />**Attention**: I do NOT accept any pull request at the moment, thanks!<br /><br />
+> <br />**Attention**: I do NOT accept any pull requests at the moment, thanks! ([Why?](https://github.com/ardhi/bajo/blob/main/tutorial/00-welcome.md#contribution))<br /><br />
 
-NDUT support for [Dobo Restproxy](https://github.com/ardhi/dobo-restproxy)
+NDUT support for [dobo-restproxy](https://github.com/ardhi/dobo-restproxy)
 
 ## Installation
 
-Goto your ```<bajo-base-dir>``` and type:
+First, go to your ```{app-dir}``` and run the following command in your terminal:
 
 ```bash
-$ npm install dobo-restproxy-ndut
+$ npm install dobo dobo-restproxy dobo-restproxy-ndut
 ```
 
-Now open your ```<bajo-data-dir>/config/.plugins``` and put ```dobo-restproxy-ndut``` in it
+Next, open the file located at ```{data-dir}/config/.plugins``` and add ```dobo```, ```dobo-restproxy``` ```dobo-restproxy-ndut```
+
+## Documentations
+
+- [Config Object](tutorial/00-config.md)
+- [API](https://ardhi.github.io/dobo-restproxy-ndut)
 
 ## License
 
